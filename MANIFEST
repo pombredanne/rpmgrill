@@ -33,7 +33,8 @@ Makefile
 MANIFEST
 META.json
 META.yml
-README.AAA_FIRST
+AUTHORS
+README.asciidoc
 README.about
 README.devel-deep
 README.devel-tests
@@ -51,6 +52,7 @@ t/RPM/Grill/20multilib.t
 t/RPM/Grill/30aggregate_gripes.t
 t/RPM/Grill/40codes.t
 t/RPM/Grill/50as_xml.t
+t/RPM/Grill/60blacklisting.t
 t/RPM/Grill/Plugin/10order.t
 t/RPM/Grill/Plugin/20docs.t
 t/RPM/Grill/Plugin/90real-world.t
@@ -152,6 +154,8 @@ t/RPM/Grill/RPM/30daemons.t
 t/RPM/Grill/RPM/Files/10numeric_mode.t
 t/RPM/Grill/RPM/Files/20eu-readelf.d/10-fullrelro-pie/eu-readelf
 t/RPM/Grill/RPM/Files/20eu-readelf.d/10-fullrelro-pie/expect
+t/RPM/Grill/RPM/Files/20eu-readelf.d/11-fullrelro-pie-newdtags/eu-readelf
+t/RPM/Grill/RPM/Files/20eu-readelf.d/11-fullrelro-pie-newdtags/expect
 t/RPM/Grill/RPM/Files/20eu-readelf.d/20-norelro-pie/eu-readelf
 t/RPM/Grill/RPM/Files/20eu-readelf.d/20-norelro-pie/expect
 t/RPM/Grill/RPM/Files/20eu-readelf.d/30-norelro-nopie/eu-readelf
